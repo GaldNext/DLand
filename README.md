@@ -1,10 +1,10 @@
 # DLand — Character Manager
 
-> 🇷🇺 Менеджер персонажей для фэнтези-RPG · 🇬🇧 Fantasy RPG character manager
+> Менеджер персонажей для фэнтези-RPG · Fantasy RPG character manager
 
 ---
 
-## 🇷🇺 Русский
+## Русский
 
 **DLand** — это десктопное WPF-приложение для управления персонажами в стиле фэнтези-ролевых игр. Приложение позволяет пользователям создавать, просматривать, редактировать и искать героев с полным набором характеристик, способностей и инвентаря.
 
@@ -83,7 +83,7 @@ DLand/
 
 ---
 
-## 🇬🇧 English
+## English
 
 **DLand** is a desktop WPF application for managing fantasy RPG-style characters. It allows users to create, view, edit, and search heroes with a full set of stats, abilities, and inventory.
 
