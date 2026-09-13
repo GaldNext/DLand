@@ -1,0 +1,32 @@
+﻿<Border x:Name="Card" CornerRadius="15" Background="#AF3C3E3E" Margin="5" MaxWidth="310" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <StackPanel Margin="5" MinWidth="310">
+        <Border x:Name="Edit" Cursor="Hand" CornerRadius="10" Background="#AF3C3E3E" HorizontalAlignment="Left" Margin="0, 10, 10, -5">
+            <md:PackIcon Kind="BookEdit"  Width="30" Height="30" Margin="5" Foreground="#FFD6D6D6"/>
+        </Border>
+        <Border x:Name="Che" Cursor="Hand" CornerRadius="10" Background="#AF3C3E3E" HorizontalAlignment="Left" Margin="0,-35,10,0">
+            <md:PackIcon Kind="Check"  Width="30" Height="30" Margin="5" Foreground="#FF00962C"/>
+        </Border>
+        <Border x:Name="Del" Cursor="Hand" CornerRadius="10" Background="#AF3C3E3E" HorizontalAlignment="Right" Margin="0,-40,10,0">
+            <md:PackIcon Kind="TrashCan"  Width="30" Height="30" Margin="5" Foreground="#FF962900"/>
+        </Border>
+        <WrapPanel>
+            <TextBlock Text="ID:" FontSize="18"/>
+            <TextBlock x:Name="Id" Text="Значение" FontSize="18" Margin="10,0,0,0"/>
+        </WrapPanel>
+        <WrapPanel>
+            <TextBlock Text="Название:" FontSize="18"/>
+            <TextBlock x:Name="Name1" Text="Значение" FontSize="18" Margin="10,0,0,0"/>
+            <TextBox x:Name="Name2" Text="Изменить" FontSize="18" Margin="10,0,5,5"/>
+        </WrapPanel>
+        <WrapPanel>
+            <TextBlock Text="Описание:" FontSize="18"/>
+            <TextBlock x:Name="Text1" Text="Значение" FontSize="18" Margin="10,0,0,0"/>
+            <TextBox x:Name="Text2" Text="Изменить" FontSize="18" Margin="10,0,5,5"/>
+        </WrapPanel>
+        <WrapPanel>
+            <TextBlock Text="Вес:" FontSize="18"/>
+            <TextBlock x:Name="Wei1" Text="Значение" FontSize="18" Margin="10,0,0,0"/>
+            <TextBox x:Name="Wei2" Text="Изменить" FontSize="18" Margin="10,0,5,5"/>
+        </WrapPanel>
+    </StackPanel>
+</Border>
