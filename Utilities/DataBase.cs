@@ -20,7 +20,7 @@ namespace DLand.Utilities
 {
     public class Database
     {
-        private string _connectionString = "Host = 26.9.63.90; Port = 5432; Database = NEWAladin; Username = postgres; Password = 12345";
+        private string _connectionString = "Host = localhost; Port = 5432; Database = NEWAladin; Username = postgres; Password = 12345";
         protected async Task<int> GetCount(string table)
         {
             string sql = $"SELECT COUNT(*) FROM {table}";
